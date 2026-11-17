@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mi portafolio personal">
+  <title>Mi Portafolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-violet-50 text-violet-950 scroll-smooth">
+
+  <!-- Navegación -->
+  <header class="sticky top-0 bg-violet-100/90 backdrop-blur shadow-sm z-10">
+    <nav class="max-w-4xl mx-auto flex items-center justify-between px-6 py-4">
+      <a href="#inicio" class="font-bold text-violet-700 text-lg">Mi Portafolio</a>
+      <ul class="flex gap-6 text-sm font-medium">
+        <li><a href="#sobre-mi" class="hover:text-violet-700">Sobre mí</a></li>
+        <li><a href="#proyectos" class="hover:text-violet-700">Proyectos</a></li>
+        <li><a href="#contacto" class="hover:text-violet-700">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-6">
+
+    <!-- Inicio -->
+    <section id="inicio" class="py-24 text-center">
+      <p class="text-violet-700 font-medium">Hola, soy Camilo</p>
+      <h1 class="text-4xl sm:text-5xl font-bold mt-2">Bienvenido a mi portafolio</h1>
+      <p class="mt-4 text-violet-900/80">Coder en formación y desarrollador de software</p>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="py-12">
+      <h2 class="text-2xl font-bold mb-4">Sobre mí</h2>
+      <p class="text-violet-900/80 leading-relaxed">
+        Me apasiona el código y todo lo relacionado al software, busco mejorar y aprender más cada día.
+      </p>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="py-12">
+      <h2 class="text-2xl font-bold mb-6">Proyectos</h2>
+      <div class="grid gap-6 sm:grid-cols-2">
+
+        <article class="bg-white rounded-xl shadow-md shadow-violet-200 border border-violet-100 p-6 flex flex-col">
+          <h3 class="text-lg font-semibold">Algoritmia</h3>
+          <p class="text-violet-900/80 text-sm mt-2 flex-1">Ejercicios de pseudocódigo.</p>
+          <a href="https://github.com/eugeocode/algoritmia" target="_blank" rel="noopener"
+             class="mt-4 text-violet-700 font-medium hover:underline">Ver repositorio →</a>
+        </article>
+
+        <article class="bg-white rounded-xl shadow-md shadow-violet-200 border border-violet-100 p-6 flex flex-col">
+          <h3 class="text-lg font-semibold">Rueda Libre</h3>
+          <p class="text-violet-900/80 text-sm mt-2 flex-1">Proyecto hecho con HTML y Bootstrap.</p>
+          <a href="https://github.com/eugeocode/rueda-libre" target="_blank" rel="noopener"
+             class="mt-4 text-violet-700 font-medium hover:underline">Ver repositorio →</a>
+        </article>
+
+        <article class="bg-white rounded-xl shadow-md shadow-violet-200 border border-violet-100 p-6 flex flex-col">
+          <h3 class="text-lg font-semibold">Proyectos con IA</h3>
+          <p class="text-violet-900/80 text-sm mt-2 flex-1">Proyectos hechos con inteligencia artificial.</p>
+          <a href="https://github.com/eugeocode/Ia-" target="_blank" rel="noopener"
+             class="mt-4 text-violet-700 font-medium hover:underline">Ver repositorio →</a>
+        </article>
+
+        <article class="bg-white rounded-xl shadow-md shadow-violet-200 border border-violet-100 p-6 flex flex-col">
+          <h3 class="text-lg font-semibold">Archivos de Estudio</h3>
+          <p class="text-violet-900/80 text-sm mt-2 flex-1">Material donde estudié varias herramientas.</p>
+          <a href="https://github.com/eugeocode/Archivos-Estudio" target="_blank" rel="noopener"
+             class="mt-4 text-violet-700 font-medium hover:underline">Ver repositorio →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-12">
+      <h2 class="text-2xl font-bold mb-4">Contacto</h2>
+      <p class="text-violet-900/80">
+        Puedes contactarme a través de mi correo electrónico:
+        <a href="mailto:camilogaleanodelaossa@gmail.com"
+           class="text-violet-700 font-medium hover:underline">camilogaleanodelaossa@gmail.com</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="text-center text-sm text-violet-700 py-8">
+    © 2026 Camilo. Hecho con HTML y Tailwind CSS.
+  </footer>
+
+</body>
+</html>
